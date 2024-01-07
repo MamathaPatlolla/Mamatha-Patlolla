@@ -167,7 +167,7 @@ Go to `/index.html` and fill your information, there are 6 sections:
     <div class="header__logo-container">
       <div class="header__logo-img-cont">
         <img
-          src="./assets/png/john-doe.png"
+          src="./assets/png/Mamatha Patlolla.png"
           alt="Ram Maheshwari Logo Image"
           class="header__logo-img"
         />
@@ -235,10 +235,7 @@ Go to `/index.html` and fill your information, there are 6 sections:
   <div class="home-hero__content">
     <h1 class="heading-primary">Hey, My name is Mamatha Patlolla</h1>
     <div class="home-hero__info">
-      <p class="text-primary">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-        tempora explicabo quae quod deserunt eius sapiente solutions for complex
-        problems
+     
       </p>
     </div>
     <div class="home-hero__cta">
@@ -314,10 +311,7 @@ Go to `/index.html` and fill your information, there are 6 sections:
   <div class="main-container">
     <h2 class="heading heading-sec heading-sec__mb-med">
       <span class="heading-sec__main">About Me</span>
-      <span class="heading-sec__sub">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-        tempora explicabo quae quod deserunt eius sapiente
-      </span>
+      
     </h2>
     <div class="about__content">
       <div class="about__content-main">
@@ -382,7 +376,7 @@ Go to `/index.html` and fill your information, there are 6 sections:
   - `.projects__row-content-desc` is where you need to add a short 2-3 lines description of your project. As there's going to be a separate page for each project so there you can add all the details for each project on the specific project page.
   - The Anchor tag ( **Case Study** button) on press will take you to the details page for each project ( For example: If you click the **Case Study** button of Project 1 then it will take you to the `project-1.html` file where you will have all the details about that particular project).
 
-Currently, I have already added a separate for each project ( considering there are 3 projects ) the file names are `project-1.html`, `project-2.html`, and `project-3.html`. They all contain the same code only the project title, description and image will change. If you like to add more projects then you can just create a new file for it and paste the same code that we have in `project-1.html` as the code is going to be the same and the only thing that you need to change is the data inside each project.
+Currently, I have already added a separate for each project ( considering there are 3 projects ) the file names are `project-1.html`. They all contain the same code only the project title, description and image will change. If you like to add more projects then you can just create a new file for it and paste the same code that we have in `project-1.html` as the code is going to be the same and the only thing that you need to change is the data inside each project.
 
 ```html
 <!-- **** Projects Section of Homepage **** -->
@@ -390,10 +384,7 @@ Currently, I have already added a separate for each project ( considering there 
   <div class="main-container">
     <h2 class="heading heading-sec heading-sec__mb-bg">
       <span class="heading-sec__main">Projects</span>
-      <span class="heading-sec__sub">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-        tempora explicabo quae quod deserunt eius sapiente
-      </span>
+      
     </h2>
 
     <div class="projects__content">
@@ -408,10 +399,7 @@ Currently, I have already added a separate for each project ( considering there 
         </div>
         <div class="projects__row-content">
           <h3 class="projects__row-content-title">Project 1</h3>
-          <p class="projects__row-content-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora, explicabo quae quod deserunt eius sapiente praesentium.
-          </p>
+          
           <a
             href="./project-1.html"
             class="btn btn--med btn--theme dynamicBgClr"
@@ -429,40 +417,16 @@ Currently, I have already added a separate for each project ( considering there 
             loading="lazy"
           />
         </div>
-        <div class="projects__row-content">
-          <h3 class="projects__row-content-title">Project 2</h3>
-          <p class="projects__row-content-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora, explicabo quae quod deserunt eius sapiente praesentium.
-          </p>
-          <a
-            href="./project-2.html"
-            class="btn btn--med btn--theme dynamicBgClr"
-            target="_blank"
-            >Case Study</a
-          >
-        </div>
+        
       </div>
       <div class="projects__row">
         <div class="projects__row-img-cont">
-          <img
-            src="./assets/jpeg/project-mockup-example.jpeg"
-            alt="Software Screenshot"
-            class="projects__row-img"
+          
             loading="lazy"
           />
         </div>
-        <div class="projects__row-content">
-          <h3 class="projects__row-content-title">Project 3</h3>
-          <p class="projects__row-content-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora, explicabo quae quod deserunt eius sapiente praesentium.
-          </p>
-          <a
-            href="./project-3.html"
-            class="btn btn--med btn--theme dynamicBgClr"
-            target="_blank"
-            >Case Study</a
+        
+         
           >
         </div>
       </div>
@@ -486,8 +450,7 @@ If you like to know how to submit forms so you can receive the form details in y
     <h2 class="heading heading-sec heading-sec__mb-med">
       <span class="heading-sec__main heading-sec__main--lt">Contact</span>
       <span class="heading-sec__sub heading-sec__sub--lt">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-        tempora explicabo quae quod deserunt eius sapiente
+        
       </span>
     </h2>
     <div class="contact__form-container">
@@ -593,10 +556,7 @@ If you like to know how to submit forms so you can receive the form details in y
       </div>
       <div class="main-footer__row main-footer__row-2">
         <h4 class="heading heading-sm text-lt">Mamatha Patlolla</h4>
-        <p class="main-footer__short-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-          tempora explicabo quae quod deserunt
-        </p>
+        
       </div>
     </div>
 
@@ -634,11 +594,7 @@ Each project will have its own Page. The project page will have important detail
   <div class="project-cs-hero__content">
     <h1 class="heading-primary">Project 1</h1>
     <div class="project-cs-hero__info">
-      <p class="text-primary">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos in
-        numquam incidunt earum quaerat cum fuga, atque similique natus nobis
-        sit.
-      </p>
+      
     </div>
     <div class="project-cs-hero__cta">
       <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
@@ -673,20 +629,9 @@ Each project will have its own Page. The project page will have important detail
       <div class="project-details__content-main">
         <div class="project-details__desc">
           <h3 class="project-details__content-title">Project Overview</h3>
+          
           <p class="project-details__desc-para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque alias
-            tenetur minus quaerat aliquid, aut provident blanditiis, deleniti
-            aspernatur ipsam eaque veniam voluptatem corporis vitae mollitia
-            laborum corrupti ullam rem. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Neque alias tenetur minus quaerat aliquid, aut
-            provident blanditiis, deleniti aspernatur ipsam eaque veniam
-            voluptatem corporis vitae mollitia laborum corrupti ullam rem?
-          </p>
-          <p class="project-details__desc-para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque alias
-            tenetur minus quaerat aliquid, aut provident blanditiis, deleniti
-            aspernatur ipsam eaque veniam voluptatem corporis vitae mollitia
-            laborum corrupti ullam rem?
+            
           </p>
         </div>
         <div class="project-details__tools-used">
@@ -707,7 +652,7 @@ Each project will have its own Page. The project page will have important detail
           </div>
         </div>
         <div class="project-details__links">
-          <h3 class="project-details__content-title">See Live</h3>
+          
           <a
             href="#"
             class="btn btn--med btn--theme project-details__links-btn"
